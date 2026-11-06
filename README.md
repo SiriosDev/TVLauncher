@@ -25,7 +25,7 @@ Download the latest `.ipk` package from the
 on your LG webOS TV using one of the methods below.
 
 There is no setup, configuration, account, or additional dependency. Install it,
-open it, and use it.
+reorder it in you custom home, and launch it.
 
 ### Homebrew Channel
 
