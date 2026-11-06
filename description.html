@@ -1,2 +1,28 @@
-<h1>TVLauncher</h1>
-<p>A simple, minimalist LG webOS TV app launcher for custom launchers lacking system app support or requiring alternative layout organization.</p>
+<h1 id="tvlauncher">TVLauncher</h1>
+<p>A simple, minimalist launcher for LG webOS TVs.</p>
+<p>TVLauncher is made for custom launchers that do not support system applications or need a simple alternative way to organize them. It provides a direct, minimal path to the built-in Live TV application.</p>
+<p>TVLauncher has been tested on an <strong>LG NANO77</strong>.</p>
+<h2 id="installation">Installation</h2>
+<p>Download the latest <code>.ipk</code> package from the <a href="https://github.com/SiriosDev/TVLauncher/releases">Releases</a> page and install it on your LG webOS TV using one of the methods below.</p>
+<p>There is no setup, configuration, account, or additional dependency. Install it, open it, and use it.</p>
+<h3 id="homebrew-channel">Homebrew Channel</h3>
+<p>Before using the installation methods below, add the TVLauncher repository to the <a href="https://www.webosbrew.org/">Homebrew Channel</a>. In the Homebrew Channel's custom repositories, add:</p>
+<pre class="text"><code>https://raw.githubusercontent.com/SiriosDev/TVLauncher/main/repo.json</code></pre>
+<p>TVLauncher will then appear in the available apps and can be installed directly on the TV.</p>
+<h3 id="ares-cli">Ares CLI</h3>
+<p>Install the <a href="https://webostv.developer.lge.com/develop/tools/cli-installation">webOS CLI</a>, register your TV as a developer device, and install the package from a terminal. You can download the package from the Releases page or install it through the Homebrew Channel repository above:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install <span class="at">--global</span> @webos-tools/cli</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">ares-setup-device</span> <span class="co">#If you haven&#39;t already registered your TV</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">ares-install</span> <span class="at">--device</span> <span class="op">&lt;</span>device-name<span class="op">&gt;</span> <span class="op">&lt;</span>downloaded_file_name<span class="op">&gt;</span>.ipk</span></code></pre></div>
+<p>Replace <code>&lt;device-name&gt;</code> with the name configured in Ares.</p>
+<h3 id="webos-dev-manager-desktop">webOS Dev Manager Desktop</h3>
+<p>Click the upper-right <strong>Install</strong> button (or the equivalent install action). Select the downloaded <code>.ipk</code> file and confirm the installation.</p>
+<h3 id="lg-dev-manager">LG Dev Manager</h3>
+<p>Add the custom repository with:</p>
+<pre class="text"><code>https://raw.githubusercontent.com/SiriosDev/TVLauncher/main/repo.json</code></pre>
+<p>Navigate to the repository and install TVLauncher. Alternatively, you can install the downloaded <code>.ipk</code> file directly from the <strong>Apps &gt; Installed</strong> section, clicking the <strong>Install</strong> button in the upper side, or by drag'n'dropping the file (only on Desktop Browser).</p>
+<h2 id="usage">Usage</h2>
+<p>Open <strong>TV Launcher</strong> from your TV's apps. The app immediately launches the built-in Live TV application and closes after the launch succeeds.</p>
+<p>No settings are required and there is nothing else to configure.</p>
+<h2 id="license">License</h2>
+<p>TVLauncher is distributed under the <a href="LICENSE">Apache License 2.0</a>.</p>
