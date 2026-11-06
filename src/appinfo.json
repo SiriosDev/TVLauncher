@@ -1,11 +1,12 @@
 {
-  "id": "com.custom.tvlauncher",
-  "version": "1.0.0",
-  "vendor": "custom",
+  "id": "it.siriosdev.tvlauncher",
+  "version": "0.0.1",
+  "vendor": "SiriosDev",
   "type": "web",
   "main": "index.html",
   "title": "TV Launcher",
   "icon": "icon.png",
   "largeIcon": "largeIcon.png",
-  "bgColor": "#6286EC"
+  "bgColor": "#6286EC",
+  "iconColor": "#6286EC"
 }

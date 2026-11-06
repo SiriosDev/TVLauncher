@@ -1,0 +1,12 @@
+{
+  "packages": [
+    {
+      "id": "it.siriosdev.tvlauncher",
+      "title": "TV Launcher",
+      "shortDescription": "<p>A simple, minimalist LG webOS TV app launcher for custom launchers lacking system app support or requiring alternative layout organization.</p>",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/siriosdev/TVLauncher/main/description.html",
+      "iconUri": "https://github.com/siriosdev/TVLauncher/blob/main/app/largeIcon.png?raw=true",
+      "manifestUrl": "https://github.com/siriosdev/TVLauncher/releases/latest/download/it.siriosdev.tvlauncher.manifest.json"
+    }
+  ]
+}
