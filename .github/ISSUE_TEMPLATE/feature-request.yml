@@ -1,0 +1,63 @@
+name: Feature request
+description: Suggest a new capability or improvement for TVLauncher.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to propose a capability that TVLauncher does not currently provide.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What limitation or need would this feature address?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the feature and how it should work.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe other approaches or workarounds you have tried.
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: Explain how this would be used in practice.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - TVLauncher app behavior
+        - Installation or packaging
+        - Repository or distribution
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked that this request has not already been proposed.
+          required: true
+        - label: This request describes a new capability, not a bug in existing behavior.
+          required: true

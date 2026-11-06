@@ -1,0 +1,58 @@
+name: Question
+description: Ask a question about installation, usage, or compatibility.
+title: "[Question]: "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the README before asking a question. Include the details below so the answer can be specific.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to know?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Describe what you are trying to do and what you have already tried.
+    validations:
+      required: true
+
+  - type: input
+    id: tv-model
+    attributes:
+      label: TV model
+      placeholder: LG NANO77
+
+  - type: input
+    id: webos-version
+    attributes:
+      label: webOS version
+      placeholder: webOS version, if known
+
+  - type: dropdown
+    id: installation-method
+    attributes:
+      label: Installation method
+      options:
+        - Homebrew Channel
+        - Ares CLI
+        - webOS Dev Manager Desktop
+        - LG Dev Manager
+        - Not installed yet
+        - Other
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked the README and existing issues first.
+          required: true

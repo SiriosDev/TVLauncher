@@ -1,0 +1,68 @@
+name: Functionality report
+description: Report feedback about an existing TVLauncher behavior or workflow.
+title: "[Functionality]: "
+labels:
+  - functionality
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for feedback about functionality that already exists.
+        For a new capability, use the Feature request template instead.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe the existing functionality and your feedback.
+      placeholder: What functionality are you reporting?
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current behavior
+      description: Explain what TVLauncher does today.
+    validations:
+      required: true
+
+  - type: textarea
+    id: desired-behavior
+    attributes:
+      label: Desired behavior
+      description: Describe the behavior or workflow you would find more useful.
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: Explain who would benefit and why.
+    validations:
+      required: true
+
+  - type: input
+    id: tv-model
+    attributes:
+      label: TV model
+      placeholder: LG NANO77
+    validations:
+      required: true
+
+  - type: input
+    id: webos-version
+    attributes:
+      label: webOS version
+      placeholder: webOS version, if known
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked that this functionality feedback is not already covered by another issue.
+          required: true
+        - label: I have included enough information for someone else to understand the use case.
+          required: true
