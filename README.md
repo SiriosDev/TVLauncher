@@ -1,3 +1,15 @@
+[![Version](https://img.shields.io/github/v/tag/SiriosDev/TVLauncher?style=for-the-badge&label=version&sort=semver)
+]([https://github.com/SiriosDev/SiriosDev/TVLauncher](https://github.com/SiriosDev/TVLauncher/releases/latest))
+[![Downloads](https://img.shields.io/github/downloads/SiriosDev/TVLauncher/total?style=for-the-badge)
+]([https://github.com/SiriosDev/SiriosDev/TVLauncher](https://github.com/SiriosDev/TVLauncher/releases))
+
+[![License](https://img.shields.io/github/license/SiriosDev/TVLauncher?style=for-the-badge)
+](https://github.com/SiriosDev/TVLauncher/blob/main/LICENSE)
+[![Release](https://img.shields.io/github/actions/workflow/status/SiriosDev/TVLauncher/release.yml?style=for-the-badge&label=Release)
+](https://github.com/SiriosDev/TVLauncher/actions/workflows/release.yml)
+[![Desc](https://img.shields.io/github/actions/workflow/status/SiriosDev/TVLauncher/update-description.yml?style=for-the-badge&label=Desc)
+](https://github.com/SiriosDev/TVLauncher/actions/workflows/update-description.yml)
+
 # TVLauncher
 
 A simple, minimalist launcher for LG webOS TVs.
