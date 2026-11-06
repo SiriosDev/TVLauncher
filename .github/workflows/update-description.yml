@@ -1,0 +1,42 @@
+name: Update description
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-description
+  cancel-in-progress: false
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Install Markdown converter
+        run: |
+          sudo apt update
+          sudo apt install --yes pandoc
+
+      - name: Convert README to HTML
+        run: pandoc README.md --from=gfm --to=html5 --output=description.html --wrap=none
+
+      - name: Commit changed description
+        run: |
+          if git diff --quiet -- description.html; then
+            echo "description.html is already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add description.html
+          git commit -m "docs: update generated description"
+          git push
