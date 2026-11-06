@@ -1,7 +1,6 @@
 <h1 id="tvlauncher">TVLauncher</h1>
 <p>A simple, minimalist launcher for LG webOS TVs.</p>
 <p>TVLauncher is made for custom launchers that do not support system applications or need a simple alternative way to organize them. It provides a direct, minimal path to the built-in Live TV application.</p>
-<p>TVLauncher has been tested on an <strong>LG NANO77</strong>.</p>
 <h2 id="installation">Installation</h2>
 <p>Download the latest <code>.ipk</code> package from the <a href="https://github.com/SiriosDev/TVLauncher/releases">Releases</a> page and install it on your LG webOS TV using one of the methods below.</p>
 <p>There is no setup, configuration, account, or additional dependency. Install it, open it, and use it.</p>
@@ -16,7 +15,7 @@
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">ares-install</span> <span class="at">--device</span> <span class="op">&lt;</span>device-name<span class="op">&gt;</span> <span class="op">&lt;</span>downloaded_file_name<span class="op">&gt;</span>.ipk</span></code></pre></div>
 <p>Replace <code>&lt;device-name&gt;</code> with the name configured in Ares.</p>
 <h3 id="webos-dev-manager-desktop">webOS Dev Manager Desktop</h3>
-<p>Click the upper-right <strong>Install</strong> button (or the equivalent install action). Select the downloaded <code>.ipk</code> file and confirm the installation.</p>
+<p>Click the upper-right <strong>Install</strong> button (or the equivalent install action) in <strong>Apps</strong> section. Select the downloaded <code>.ipk</code> file and confirm the installation.</p>
 <h3 id="lg-dev-manager">LG Dev Manager</h3>
 <p>Add the custom repository with:</p>
 <pre class="text"><code>https://raw.githubusercontent.com/SiriosDev/TVLauncher/main/repo.json</code></pre>
@@ -24,5 +23,16 @@
 <h2 id="usage">Usage</h2>
 <p>Open <strong>TV Launcher</strong> from your TV's apps. The app immediately launches the built-in Live TV application and closes after the launch succeeds.</p>
 <p>No settings are required and there is nothing else to configure.</p>
+<h2 id="tests">Tests</h2>
+<p>TVLauncher has been tested only on <strong>NANO77</strong>. It should work on any version of webOS 4.0 or later. Reports, suggestions, and compatibility feedback are always welcome in the issues.</p>
+<h2 id="credits">Credits</h2>
+<p>Installation and development information was cross-checked against the following public projects and documentation:</p>
+<ul>
+<li><a href="https://webostv.developer.lge.com/develop/tools/cli-installation">LG webOS CLI documentation</a></li>
+<li><a href="https://github.com/webosbrew/dev-manager-desktop">webOS Dev Manager Desktop</a></li>
+<li><a href="https://github.com/Scoty/lg-dev-manager">LG Dev Manager</a></li>
+</ul>
+<h2 id="ai-usage">AI Usage</h2>
+<p>AI assistance was used for researching sources and documentation, writing commit messages, and code autocomplete during development.</p>
 <h2 id="license">License</h2>
 <p>TVLauncher is distributed under the <a href="LICENSE">Apache License 2.0</a>.</p>
