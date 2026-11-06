@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="webOSTV.js"></script>
+</head>
+<body style="background:#000;color:#fff;font-family:sans-serif">
+<script>
+  function launchTV() {
+    webOS.service.request("luna://com.webos.applicationManager", {
+      method: "launch",
+      parameters: { id: "com.webos.app.livetv" },
+      onSuccess: function () { window.close(); },
+      onFailure: function (err) {
+        document.body.textContent = "Errore: " + JSON.stringify(err);
+      }
+    });
+  }
+  document.addEventListener("webOSLaunch", launchTV);
+  document.addEventListener("webOSRelaunch", launchTV);
+  launchTV();
+</script>
+</body>
+</html>

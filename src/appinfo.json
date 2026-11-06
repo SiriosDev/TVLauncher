@@ -1,0 +1,11 @@
+{
+  "id": "com.custom.tvlauncher",
+  "version": "1.0.0",
+  "vendor": "custom",
+  "type": "web",
+  "main": "index.html",
+  "title": "TV Launcher",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "bgColor": "#6286EC"
+}
