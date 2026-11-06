@@ -63,7 +63,7 @@ def main() -> None:
     manifest = {
         "id": appinfo["id"],
         "version": appinfo["version"],
-        "type": "native",
+        "type": "web",
         "title": appinfo["title"],
         "appDescription": (
             "A simple, minimalist LG webOS TV app launcher for custom launchers "
