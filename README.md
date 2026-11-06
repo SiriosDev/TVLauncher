@@ -6,8 +6,6 @@ TVLauncher is made for custom launchers that do not support system applications
 or need a simple alternative way to organize them. It provides a direct,
 minimal path to the built-in Live TV application.
 
-TVLauncher has been tested on an **LG NANO77**.
-
 ## Installation
 
 Download the latest `.ipk` package from the
@@ -47,8 +45,8 @@ Replace `<device-name>` with the name configured in Ares.
 
 ### webOS Dev Manager Desktop
 
-Click the upper-right **Install** button (or the equivalent install action).
-Select the downloaded `.ipk` file and confirm the installation.
+Click the upper-right **Install** button (or the equivalent install action) in **Apps**
+section. Select the downloaded `.ipk` file and confirm the installation.
 
 ### LG Dev Manager
 
@@ -69,6 +67,27 @@ Open **TV Launcher** from your TV's apps. The app immediately launches the
 built-in Live TV application and closes after the launch succeeds.
 
 No settings are required and there is nothing else to configure.
+
+## Tests
+
+TVLauncher has been tested only on **NANO77**. 
+It should work on any version of webOS 4.0 or later.
+Reports, suggestions, and compatibility feedback are always welcome
+in the issues.
+
+## Credits
+
+Installation and development information was cross-checked against the
+following public projects and documentation:
+
+- [LG webOS CLI documentation](https://webostv.developer.lge.com/develop/tools/cli-installation)
+- [webOS Dev Manager Desktop](https://github.com/webosbrew/dev-manager-desktop)
+- [LG Dev Manager](https://github.com/Scoty/lg-dev-manager)
+
+## AI Usage
+
+AI assistance was used for researching sources and documentation, writing
+commit messages, and code autocomplete during development.
 
 ## License
 
