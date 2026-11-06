@@ -1,14 +1,17 @@
-[![Version](https://img.shields.io/github/v/tag/SiriosDev/TVLauncher?style=for-the-badge&label=version&sort=semver)
-]([https://github.com/SiriosDev/SiriosDev/TVLauncher](https://github.com/SiriosDev/TVLauncher/releases/latest))
-[![Downloads](https://img.shields.io/github/downloads/SiriosDev/TVLauncher/total?style=for-the-badge)
-]([https://github.com/SiriosDev/SiriosDev/TVLauncher](https://github.com/SiriosDev/TVLauncher/releases))
+[![Version](https://img.shields.io/github/v/tag/SiriosDev/TVLauncher?style=for-the-badge&label=version&sort=semver)][VERSION_URL]
+[![Downloads](https://img.shields.io/github/downloads/SiriosDev/TVLauncher/total?style=for-the-badge)][DOWNLOAD_URL]
 
-[![License](https://img.shields.io/github/license/SiriosDev/TVLauncher?style=for-the-badge)
-](https://github.com/SiriosDev/TVLauncher/blob/main/LICENSE)
-[![Release](https://img.shields.io/github/actions/workflow/status/SiriosDev/TVLauncher/release.yml?style=for-the-badge&label=Release)
-](https://github.com/SiriosDev/TVLauncher/actions/workflows/release.yml)
-[![Desc](https://img.shields.io/github/actions/workflow/status/SiriosDev/TVLauncher/update-description.yml?style=for-the-badge&label=Desc)
-](https://github.com/SiriosDev/TVLauncher/actions/workflows/update-description.yml)
+[VERSION_URL]: https://github.com/SiriosDev/TVLauncher/releases/latest
+[DOWNLOAD_URL]: https://github.com/SiriosDev/TVLauncher/releases/
+
+[![License](https://img.shields.io/github/license/SiriosDev/TVLauncher?style=for-the-badge)][LICENSE_URL]
+[![Release](https://img.shields.io/github/actions/workflow/status/SiriosDev/TVLauncher/release.yml?style=for-the-badge&label=Release)][RELEASE_URL]
+[![Desc](https://img.shields.io/github/actions/workflow/status/SiriosDev/TVLauncher/update-description.yml?style=for-the-badge&label=Desc)][DESC_URL]
+
+[LICENSE_URL]: https://github.com/SiriosDev/TVLauncher/blob/main/LICENSE
+[RELEASE_URL]: https://github.com/SiriosDev/TVLauncher/actions/workflows/release.yml
+[DESC_URL]: https://github.com/SiriosDev/TVLauncher/actions/workflows/update-description.yml
+
 
 # TVLauncher
 
